@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.se02.bulletinboard.SignupActivity">
+
+    <EditText
+        android:id="@+id/signup_student_Member"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/student_Member"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/signup_student_Member"
+        android:layout_below="@+id/signup_student_Member"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/student_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/signup_password_confirmation"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="@string/student_password_confirmation"
+        android:inputType="textPassword"
+        android:layout_below="@+id/signup_password"
+        android:layout_alignStart="@+id/signup_password"
+        />
+
+
+
+    <EditText
+        android:id="@+id/signup_Name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/signup_password_confirmation"
+        android:layout_below="@+id/signup_password_confirmation"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/student_name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/signup_bt_MemberJoin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/student_join"
+        android:layout_below="@+id/signup_Name"
+        android:layout_alignStart="@+id/signup_Name"
+        android:layout_alignEnd="@+id/signup_Name" />
+
+</RelativeLayout>

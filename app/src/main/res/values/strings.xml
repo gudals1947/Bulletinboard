@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">게시판</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="student_Member">학번</string>
+    <string name="student_password">비밀번호</string>
+    <string name="student_password_confirmation">비밀번호 확인</string>
+    <string name="student_name">이름</string>
+    <string name="student_join">가입하기</string>
+    <string name="title_activity_second_fragment">SecondFragment</string>
+    <string-array name="school_subject">
+        <item>공과대학</item>
+        <item>경영대학</item>
+        <item>보건복지교육대학</item>
+        <item>건축디자인대학</item>
+        <item>인문사회대학</item>
+    </string-array>
+
+    <string-array name="it_subject">
+        <item>컴퓨터공학과</item>
+        <item>게임공학과</item>
+        <item>정보통신공학과</item>
+    </string-array>
+
+    <string-array name="Business_subject">
+        <item>경영학과</item>
+        <item>유통경영학과</item>
+        <item>금융학과</item>
+    </string-array>
+
+    <string-array name="health_subject">
+        <item>간호학과</item>
+        <item>언어치료학과</item>
+        <item>유아교육과</item>
+    </string-array>
+
+    <string-array name="wait_subject">
+        <item>서비스 준비중입니다. ^^</item>
+    </string-array>
+</resources>
